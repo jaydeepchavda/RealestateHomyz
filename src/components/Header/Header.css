@@ -1,0 +1,59 @@
+.h-wrapper{
+    color:white;
+    z-index: 99;
+    
+}
+
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+    background-color:#3dc269;
+    border-radius: 10px;
+}
+
+.h-menu{
+    gap: 2rem;
+}
+
+.h-menu>*:hover{
+    cursor:pointer;
+    border-bottom: 2px solid #c23d96;
+    box-shadow: var(--shadow);
+}
+
+.h-container>img:hover{
+    cursor: pointer;
+
+}
+
+.menu-icon{
+    display:none;
+}
+
+@media (max-width:768px){
+    .menu-icon{
+        display: block;
+    }
+    .h-menu {
+        z-index: 99;
+        color: var(--black);
+        position: absolute;
+        gap: 2rem;
+        font-weight: 500;
+        flex-direction: column;
+        right: 4rem;
+        top: 3rem;
+        background: white;
+        display: flex;
+        border-radius: 10px;
+        transition: all 200ms ease;
+        align-items: flex-start;
+        padding: 3rem;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+      }
+}
+
+
