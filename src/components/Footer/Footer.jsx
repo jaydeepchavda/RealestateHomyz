@@ -19,7 +19,7 @@ const Footer = () => {
 
           <div className="flexCenter f-menu">
             <span>Property</span>
-            <span>Services</span>
+            <span>Contact</span>
             <span>Product</span>
             <span>About Us</span>
           </div>
